@@ -1,0 +1,115 @@
+// 全局变量
+$primary-color: #00d4ff;
+$secondary-color: #1a1a2e;
+$text-color: #333;
+$text-light: #666;
+$bg-light: #f5f7fa;
+$border-color: #e4e7ed;
+
+// 全局样式
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: '思源黑体', 'Microsoft YaHei', sans-serif;
+  color: $text-color;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+  
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// 响应式断点
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// 通用工具类
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.bg-light {
+  background-color: $bg-light;
+}
+
+.section {
+  padding: 80px 0;
+  
+  @media (max-width: $breakpoint-md) {
+    padding: 50px 0;
+  }
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: $secondary-color;
+  margin-bottom: 20px;
+  text-align: center;
+  
+  @media (max-width: $breakpoint-md) {
+    font-size: 28px;
+  }
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: $text-light;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+// 按钮样式
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+  
+  &.btn-primary {
+    background: linear-gradient(135deg, $primary-color, #0099cc);
+    color: #fff;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
+    }
+  }
+  
+  &.btn-outline {
+    background: transparent;
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    
+    &:hover {
+      background: $primary-color;
+      color: #fff;
+    }
+  }
+}
