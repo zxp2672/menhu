@@ -3,7 +3,8 @@
     <div class="container">
       <div class="header-content">
         <router-link to="/" class="logo">
-          <h1>天府志达科技</h1>
+          <img src="/images/logo.png" alt="天府志达科技" class="logo-img" />
+          <span class="logo-text">天府志达科技</span>
         </router-link>
         
         <nav class="nav-menu" :class="{ 'mobile-open': mobileMenuOpen }">
@@ -77,11 +78,22 @@ onUnmounted(() => {
 }
 
 .logo {
-  h1 {
-    font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  
+  .logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .logo-text {
+    font-size: 20px;
     font-weight: bold;
     color: #00d4ff;
-    margin: 0;
+    white-space: nowrap;
   }
 }
 

@@ -167,6 +167,48 @@ const featuredCases = [
     description: '构建学员管理体系，实现招生、教学、服务全流程管理',
     industry: '教育',
     type: 'CRM系统'
+  },
+  {
+    id: 4,
+    title: '某医院HIS系统定制',
+    description: '为医疗机构定制开发医院信息系统，实现门诊、住院、药品全流程管理',
+    industry: '医疗',
+    type: '行业定制'
+  },
+  {
+    id: 5,
+    title: '某连锁零售管理系统',
+    description: '多门店统一管理，实现商品、会员、营销、库存一体化运营',
+    industry: '零售',
+    type: '行业定制'
+  },
+  {
+    id: 6,
+    title: '某物流企业TMS系统',
+    description: '运输管理系统定制，实现订单、调度、跟踪、结算全流程数字化',
+    industry: '物流',
+    type: '行业定制'
+  },
+  {
+    id: 7,
+    title: '某金融公司风控系统',
+    description: '为金融机构定制开发风险控制系统，实现数据分析和预警管理',
+    industry: '金融',
+    type: '行业定制'
+  },
+  {
+    id: 8,
+    title: '某建筑企业项目管理系统',
+    description: '工程项目全生命周期管理，实现进度、质量、成本精细化管控',
+    industry: '建筑',
+    type: '行业定制'
+  },
+  {
+    id: 9,
+    title: '某电商平台定制开发',
+    description: 'B2B/B2C电商平台定制，支持多商户、多规格、智能推荐',
+    industry: '电商',
+    type: '行业定制'
   }
 ]
 
@@ -335,6 +377,12 @@ onMounted(() => {
   
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
 }
 
@@ -354,6 +402,10 @@ onMounted(() => {
   
   @media (max-width: 768px) {
     font-size: 36px;
+  }
+  
+  @media (max-width: 480px) {
+    font-size: 28px;
   }
 }
 
@@ -396,8 +448,13 @@ onMounted(() => {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: 576px) {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 
