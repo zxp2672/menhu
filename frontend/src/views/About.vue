@@ -63,12 +63,16 @@ import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 
 const history = [
-  { year: '2018', title: '公司成立', desc: '成都天府志达科技有限公司正式成立' },
-  { year: '2019', title: '技术突破', desc: '获得首批软件著作权认证' },
-  { year: '2020', title: '业务扩展', desc: '服务范围覆盖多个行业领域' },
+  { year: '2015', title: '公司成立', desc: '成都天府志达科技有限公司正式成立，开启软件定制开发之路' },
+  { year: '2016', title: '技术积累', desc: '组建核心技术团队，完成首批产品研发' },
+  { year: '2017', title: '业务起步', desc: '首批客户项目成功交付，获得市场认可' },
+  { year: '2018', title: '软著认证', desc: '获得首批软件著作权认证，技术实力获认可' },
+  { year: '2019', title: '业务扩展', desc: '服务范围覆盖OA、ERP、CRM等多个领域' },
+  { year: '2020', title: '行业深耕', desc: '深入医疗、零售、物流等行业，提供专业解决方案' },
   { year: '2021', title: '高企认证', desc: '获得国家高新技术企业认证' },
-  { year: '2022', title: '专利获批', desc: '获得2项核心技术专利' },
-  { year: '2023', title: '快速发展', desc: '服务客户突破200家' }
+  { year: '2022', title: '专利获批', desc: '获得2项核心技术专利，技术壁垒进一步巩固' },
+  { year: '2023', title: '快速发展', desc: '服务客户突破200家，覆盖10+行业' },
+  { year: '2024', title: '持续创新', desc: '完成ICP备案，网站全面升级，开启发展新篇章' }
 ]
 </script>
 
