@@ -21,7 +21,8 @@
         <div class="footer-section">
           <h4>联系方式</h4>
           <ul class="contact-info">
-            <li>电话：028-xxxx-xxxx</li>
+            <li>联系人：祝经理</li>
+            <li>电话：18000588805</li>
             <li>邮箱：info@zhida-tech.com</li>
             <li>地址：成都市武侯区复城国际T1写字楼1601</li>
           </ul>
@@ -38,7 +39,7 @@
       
       <div class="footer-bottom">
         <p>&copy; 2026 成都天府志达科技有限公司 版权所有</p>
-        <p class="icp">蜀ICP备xxxxxxxx号</p>
+        <p class="icp"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">蜀ICP备2024062329号-1</a></p>
       </div>
     </div>
   </footer>

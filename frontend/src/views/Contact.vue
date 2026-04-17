@@ -51,10 +51,18 @@
           <div class="contact-info-section">
             <h2>联系方式</h2>
             <div class="info-item">
+              <div class="info-icon">👤</div>
+              <div>
+                <h4>联系人</h4>
+                <p>祝经理</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
               <div class="info-icon">📞</div>
               <div>
                 <h4>电话</h4>
-                <p>028-xxxx-xxxx</p>
+                <p>18000588805</p>
               </div>
             </div>
             
