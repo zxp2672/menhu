@@ -43,6 +43,17 @@ tianfu-zhida-portal/
 - MySQL >= 8.0
 - npm 或 yarn
 
+## 访问地址
+
+- **网站地址**: https://001tf.com (HTTP自动跳转HTTPS)
+- **后台管理**: https://001tf.com/admin
+- **API接口**: https://001tf.com/api
+
+### 网站信息
+- **ICP备案**: 蜀ICP备2024062329号-1
+- **联系电话**: 18000588805
+- **联系人**: 祝经理
+
 ## 安装与运行
 
 ### 1. 数据库配置
